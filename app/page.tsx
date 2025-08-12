@@ -325,7 +325,7 @@ export default function Page() {
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">Clean dashboard</h3>
                 <p className="text-gray-600">
-                  See everything you've saved in one beautiful, organized place.
+                  See everything you&apos;ve saved in one beautiful, organized place.
                 </p>
               </div>
             </div>
@@ -354,7 +354,7 @@ export default function Page() {
                 </div>
               </div>
               <p className="text-lg text-gray-700 italic mb-6">
-                "I used to have 500+ tabs open. Now I just text links to Digest and actually learn from them during my commute."
+                &ldquo;I used to have 500+ tabs open. Now I just text links to Digest and actually learn from them during my commute.&rdquo;
               </p>
               <p className="text-sm text-gray-500">— Sarah K., Product Manager</p>
             </div>
