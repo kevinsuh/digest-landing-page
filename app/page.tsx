@@ -332,6 +332,130 @@ export default function Page() {
           </div>
         </section>
 
+        {/* Content Categories Showcase */}
+        <section className="py-16 px-6 md:px-12 bg-gray-50">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Organize your saved content automatically
+              </h2>
+              <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+                Our AI automatically categorizes your saved articles, videos, and resources. 
+                Browse by topic and get AI-generated summaries with audio playback.
+              </p>
+            </div>
+            
+            <div className="relative max-w-4xl mx-auto">
+              <div className="bg-white rounded-2xl card-shadow overflow-hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="450" viewBox="0 0 1000 450" className="w-full h-auto">
+                  {/* Main Content Area */}
+                  <rect x="0" y="0" width="1000" height="450" rx="12" fill="white"/>
+                  
+                  {/* Title */}
+                  <text x="30" y="40" fontFamily="Arial, sans-serif" fontSize="28" fontWeight="bold" fill="#2d3748">Your Content Categories</text>
+                  <text x="30" y="65" fontFamily="Arial, sans-serif" fontSize="16" fill="#718096">Explore your saved content organized by topic with AI-generated summaries</text>
+                  
+                  {/* Bitcoin Card */}
+                  <rect x="30" y="90" width="460" height="220" rx="8" fill="white" stroke="#e2e8f0" strokeWidth="1"/>
+                  <rect x="50" y="110" width="32" height="32" rx="8" fill="#f7931a"/>
+                  <text x="62" y="132" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="white">₿</text>
+                  <text x="95" y="132" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold" fill="#2d3748">Bitcoin</text>
+                  
+                  {/* Bitcoin Metadata */}
+                  <text x="50" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">ARTICLES</text>
+                  <text x="50" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">6</text>
+                  <text x="140" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">TIME PERIOD</text>
+                  <text x="140" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">3 weeks</text>
+                  <text x="250" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">LISTEN TIME</text>
+                  <text x="250" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">12 min</text>
+                  
+                  {/* Bitcoin Summary */}
+                  <text x="50" y="205" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">Recent developments in Bitcoin include regulatory updates from major</text>
+                  <text x="50" y="220" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">economies, institutional adoption trends, and technical analysis of price</text>
+                  <text x="50" y="235" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">movements. Key topics cover ETF approvals and mining sustainability.</text>
+                  
+                  {/* Bitcoin Buttons */}
+                  <rect x="50" y="250" width="160" height="32" rx="6" fill="#667eea"/>
+                  <text x="130" y="269" fontFamily="Arial, sans-serif" fontSize="12" fontWeight="bold" fill="white" textAnchor="middle">Listen (12 min)</text>
+                  <rect x="230" y="250" width="140" height="32" rx="6" fill="#f7fafc" stroke="#e2e8f0" strokeWidth="1"/>
+                  <text x="300" y="269" fontFamily="Arial, sans-serif" fontSize="12" fill="#4a5568" textAnchor="middle">Read Summary</text>
+                  
+                  {/* MCP Server Card */}
+                  <rect x="510" y="90" width="460" height="220" rx="8" fill="white" stroke="#e2e8f0" strokeWidth="1"/>
+                  <rect x="530" y="110" width="32" height="32" rx="8" fill="#10b981"/>
+                  <text x="540" y="132" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="white">⚡</text>
+                  <text x="575" y="132" fontFamily="Arial, sans-serif" fontSize="20" fontWeight="bold" fill="#2d3748">MCP Server Development</text>
+                  
+                  {/* MCP Metadata */}
+                  <text x="530" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">ARTICLES</text>
+                  <text x="530" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">3</text>
+                  <text x="620" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">TIME PERIOD</text>
+                  <text x="620" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">Aug 1-12</text>
+                  <text x="730" y="165" fontFamily="Arial, sans-serif" fontSize="10" fill="#a0aec0">LISTEN TIME</text>
+                  <text x="730" y="180" fontFamily="Arial, sans-serif" fontSize="16" fontWeight="bold" fill="#4a5568">14 min</text>
+                  
+                  {/* MCP Summary */}
+                  <text x="530" y="205" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">Comprehensive guide to building MCP (Model Context Protocol) servers,</text>
+                  <text x="530" y="220" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">covering architecture patterns, implementation best practices, and</text>
+                  <text x="530" y="235" fontFamily="Arial, sans-serif" fontSize="13" fill="#718096">integration strategies. Topics include server setup and debugging.</text>
+                  
+                  {/* MCP Buttons */}
+                  <rect x="530" y="250" width="160" height="32" rx="6" fill="#667eea"/>
+                  <text x="610" y="269" fontFamily="Arial, sans-serif" fontSize="12" fontWeight="bold" fill="white" textAnchor="middle">Listen (14 min)</text>
+                  <rect x="710" y="250" width="140" height="32" rx="6" fill="#f7fafc" stroke="#e2e8f0" strokeWidth="1"/>
+                  <text x="780" y="269" fontFamily="Arial, sans-serif" fontSize="12" fill="#4a5568" textAnchor="middle">Read Summary</text>
+                  
+                  {/* Stats Bar */}
+                  <rect x="30" y="330" width="940" height="60" rx="8" fill="#f7fafc"/>
+                  <text x="140" y="355" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#667eea">9</text>
+                  <text x="125" y="375" fontFamily="Arial, sans-serif" fontSize="14" fill="#718096">Total Articles</text>
+                  
+                  <text x="350" y="355" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#667eea">26</text>
+                  <text x="330" y="375" fontFamily="Arial, sans-serif" fontSize="14" fill="#718096">Minutes of Audio</text>
+                  
+                  <text x="580" y="355" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#667eea">2</text>
+                  <text x="555" y="375" fontFamily="Arial, sans-serif" fontSize="14" fill="#718096">Active Categories</text>
+                  
+                  <text x="800" y="355" fontFamily="Arial, sans-serif" fontSize="24" fontWeight="bold" fill="#667eea">3</text>
+                  <text x="785" y="375" fontFamily="Arial, sans-serif" fontSize="14" fill="#718096">Weeks of Content</text>
+                </svg>
+              </div>
+              
+              <div className="mt-8 grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Auto-categorization</h3>
+                  <p className="text-gray-600 text-sm">Content automatically sorted by topic and theme</p>
+                </div>
+                
+                <div>
+                  <div className="w-12 h-12 bg-purple-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">AI Summaries</h3>
+                  <p className="text-gray-600 text-sm">Get the key insights without reading full articles</p>
+                </div>
+                
+                <div>
+                  <div className="w-12 h-12 bg-green-100 rounded-lg flex items-center justify-center mx-auto mb-3">
+                    <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M9 9a3 3 0 000 6h6V9H9z" />
+                    </svg>
+                  </div>
+                  <h3 className="font-semibold text-gray-900 mb-2">Audio Playback</h3>
+                  <p className="text-gray-600 text-sm">Listen to summaries during commutes or workouts</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* Testimonial/Problem Section */}
         <section className="py-16 px-6 md:px-12 bg-gradient-to-br from-purple-50 to-blue-50">
           <div className="max-w-4xl mx-auto text-center">
